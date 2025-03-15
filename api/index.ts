@@ -2,9 +2,10 @@ import { getOwnerOfferById } from './jobOffers'
 export { signIn } from '@/api/auth'
 export { getUserProfile } from '@/api/profile'
 export {
-  getOwnerOffers,
+  getAllListedOffers,
   getOwnerOfferById,
   getProUserOffers,
   getProOfferById,
   applyToOffer,
+  getOwnerListedOffers,
 } from '@/api/jobOffers'

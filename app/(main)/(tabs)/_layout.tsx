@@ -72,7 +72,6 @@ export default function ProfileLayout() {
         name="crewList/index"
         options={{
           sceneStyle,
-          headerShown: true,
           headerStyle,
           title: '',
           href: role === UserRole.PRO ? null : '/crewList',
