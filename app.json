@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "marineria",
-    "slug": "marineria",
+    "name": "marineriait",
+    "slug": "marineriait",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "marineria",
+      "bundleIdentifier": "marineriait",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -84,9 +84,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "8c82cc07-40cb-44f4-a290-043fe4ffa7d5"
+        "projectId": "28bee9e1-1e50-4d2d-bf87-f130e3f64531"
       }
     },
-    "owner": "marineria"
+    "owner": "comunicatzionetre"
   }
 }
