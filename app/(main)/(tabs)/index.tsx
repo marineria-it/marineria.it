@@ -42,6 +42,7 @@ const UserProfile = () => {
 
   const photoUrl = useMemo(() => `https://www.marineria.it/PROFoto/${user?.namephotoA}.jpg`, [user])
 
+  console.log('user - 01', user)
   return (
     <View className="h-full justify-center items-center">
       {isLoading ? (

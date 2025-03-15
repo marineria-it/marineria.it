@@ -30,8 +30,8 @@ export const setNotificationToken = async (token: string, pushToken: string): Pr
     pushToken,
   })
 
-  try {
-    const res = await fetch(API.NOTIFICATION, {
+  https: try {
+    const res = await fetch(`${API.NOTIFICATION}/SetPushNotificationToken`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
