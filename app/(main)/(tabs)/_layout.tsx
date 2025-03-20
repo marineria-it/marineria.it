@@ -13,7 +13,6 @@ export default function ProfileLayout() {
   const { auth, isLoading } = useSession()
   const { token } = auth
   const insets = useSafeAreaInsets()
-  const { user } = useUser()
   const { role } = auth
 
   if (isLoading) {
@@ -89,6 +88,7 @@ export default function ProfileLayout() {
           href: role === UserRole.OWNER ? null : '/jobOffers',
           tabBarIcon: ({ color }) => <FontAwesome6 name="anchor" size={24} color={color} />,
         }}
+        key={role}
       />
       <Tabs.Screen
         name="jobOffers/jobOffer"
