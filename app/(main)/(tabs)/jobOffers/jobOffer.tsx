@@ -60,7 +60,6 @@ const JobOfferScreen = () => {
   }
 
   const onApply = async () => {
-    console.log('apply to offer')
     await applyToOffer(token, offer.idoffer, language)
   }
 

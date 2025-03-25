@@ -19,6 +19,9 @@
     "production": {
       "ios": {
         "companyName": "Comunicazione Tre Srl"
+      },
+      "android": {
+        "serviceAccountKeyPath": "/Users/n.nassif/Desktop/untitled folder 3/marineria-453812-feda60fd8235.json"
       }
     }
   }
